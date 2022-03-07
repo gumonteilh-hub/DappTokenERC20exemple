@@ -15,6 +15,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import {MatNativeDateModule} from '@angular/material/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FaucetComponent } from './components/faucet/faucet.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TransferComponent,
     StartComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FaucetComponent
   ],
   imports: [
     BrowserModule,
